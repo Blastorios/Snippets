@@ -1,0 +1,18 @@
+# Installation
+
+After installing conda, install the following into your base env:
+
+```
+conda install -c conda-forge conda-bash-completion
+```
+
+# Usage
+
+Now, ensure we activate the script without activating the base env through:
+
+```
+CONDA_ROOT=~/anaconda3   # <- set to your Anaconda/Miniconda installation directory
+if [[ -r $CONDA_ROOT/etc/profile.d/bash_completion.sh ]]; then
+    source $CONDA_ROOT/etc/profile.d/bash_completion.sh
+fi
+```

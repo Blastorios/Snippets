@@ -1,0 +1,17 @@
+To create a desktop shortcut for an easy-to-use interface, type something like the following into a *.desktop file and store it under ~/Desktop:
+
+```
+[Desktop Entry]
+Name=Canvas
+Comment=Canvas Dashboard
+Exec=firefox https://canvas.vu.nl/
+Icon=/home/jordi/Desktop/.icons/canvas-logo-icon.png
+Terminal=false
+Type=Application
+Categories=Web;
+```
+
+---
+
+For other applications, like VSCode, simply create a normal file and add the `shebang` line to the file and add `chmod +x filename` to allow execution.
+
