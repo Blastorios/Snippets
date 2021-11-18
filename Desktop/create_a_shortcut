@@ -1,6 +1,11 @@
-To create a desktop shortcut for an easy-to-use interface, type something like the following into a *.desktop file and store it under ~/Desktop:
+# Instruction
+Desktop Shortcuts are created by putting `*.desktop` files under the `~/Desktop` directory. Let's see some examples:
 
-```
+---
+
+# Firefox
+
+```bash
 [Desktop Entry]
 Name=Canvas
 Comment=Canvas Dashboard
@@ -13,5 +18,20 @@ Categories=Web;
 
 ---
 
-For other applications, like VSCode, simply create a normal file and add the `shebang` line to the file and add `chmod +x filename` to allow execution.
+# VSCode
+Credit: https://github.com/microsoft/vscode/blob/main/resources/linux/code.desktop
 
+```bash
+[Desktop Entry]
+Name=Dashboard
+Comment=Dashboard Development
+Exec=/snap/bin/code --unity-launch /home/jordi/Coding/Dashboard
+Icon=/home/jordi/Desktop/.icons/vscode-logo.png
+Type=Application
+Terminal=false
+StartupNotify=false
+Categories=Utility;TextEditor;Development;IDE;
+Keywords=vscode;
+```
+
+where you need to create the `Exec=/snap/bin/code` line by checking the result from `which code`.

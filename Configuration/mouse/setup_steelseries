@@ -11,7 +11,7 @@ piper
 
 # Usage
 
-Open using `piper` and go to Buttons. Set the buttons accordingly (copy/paste = Ctrl+Shift+c/v).
+Open using `piper` and go to Buttons. Set the buttons accordingly (copy/paste = Ctrl+Shift+c/v for terminal).
 
 In the LEDs tab, set the operation to breathing, the time to 5000ms and equal the led brightness to the distance of the time selection bar.
 
