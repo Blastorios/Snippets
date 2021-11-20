@@ -1,3 +1,4 @@
 .env
 *pychache*
 .ipynb_checkpoints
+default-*
