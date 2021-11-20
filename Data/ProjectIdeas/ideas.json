@@ -1,0 +1,13 @@
+{
+    "Machine Learning": {
+        "easy": [
+            "Take the 600 most streamed songs of all time. Apply a fourier transform and more data preparation methods as you see fit to eventually perform unsupervised clustering in order to look for patterns in music styles that will lead from the last place towards the first place on the list. (Possible Extension) Eventually being able to create a GAN that is capable of producing a unique top 100 song that actually rocks :)."
+        ],
+        "intermediate": [
+            "background removal: collect pictures without a background and artificially add background noise. make the background substantially larger than the original picture so we always remove background from 1080p pictures. (this will make for a large model but thats fine). Use GANs? (so we can simply create new pictures from a noisy one.)"
+        ],
+        "advanced": [
+            "Create a reinforcement learning machine that implements human-like plasticity within the State management. For example: When the RLM just starts, we start with an empty neuron that will contain a set of values (weights) at a certain intensity (bias). When the agent performs a given task, the state changed and this is remembered dynamically within a neuron's state (state-matching). Following, similar events will alter the same neuron but in the form of a neuronal circuit (aka increase complexity by creating growth). Any new event type will then be decoupled and created independently within an identical form."
+        ]
+    }
+}
